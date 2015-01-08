@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UITesting">
+    <test name="Apigee-Blog">
+        <parameter name="myName" value="vivek"/>
+        <classes>
+            <class name="blog.BlogUINavigationTest"/>
+        </classes>
+    </test>
+    <test name="ApiGee-Customer">
+
+        <classes>
+            <class name="customer.CustomerSignUpTest"/>
+        </classes>
+    </test>
+    <test name="ApiGee-resources">
+
+        <classes>
+            <class name="resources.ResourcesPageTest"/>
+        </classes>
+    </test>
+
+    <test name="ApiGee-HomePage">
+
+        <classes>
+            <class name="UI.HomePageNavigationTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+
